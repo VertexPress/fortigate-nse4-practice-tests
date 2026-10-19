@@ -1,0 +1,9 @@
+FortiGate NSE 4 Practice Tests, companion repository
+Exam 4, Question 40. Routing table extract (get router info routing-table all).
+This is command OUTPUT, not configuration. The [distance/metric] field governs
+selection: the lower administrative distance (10) is installed and active; the
+20-distance route via port2 is a standby that activates only if the port1 route
+is withdrawn. FortiOS 7.6.
+
+S* 0.0.0.0/0 [10/0] via 203.0.113.1, port1
+S  0.0.0.0/0 [20/0] via 198.51.100.1, port2
